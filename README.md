@@ -97,6 +97,20 @@ python src/GAN/pipeline/stage_04_evaluate_gan.py
 python src/GAN/pipeline/stage_05_web_app.py
 ```
 
+### After finish - Deactivate and Remove environment
+
+Deactivate:
+
+```bash
+deactivate
+```
+
+Remove environment:
+
+```bash
+rm -rf .venv
+```
+
 ### Using the Web Application
 
 After running the pipeline, the web application is accessible at:
