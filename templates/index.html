@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Monet Style GAN</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Monet Style GAN</h1>
+        <p>Upload an image to transform it into Monet's style</p>
+
+        <form action="/generate" method="post" enctype="multipart/form-data">
+            <div class="upload-area">
+                <input type="file" name="file" id="file" accept="image/*" required>
+                <label for="file">Choose an image</label>
+            </div>
+            <button type="submit">Transform</button>
+        </form>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

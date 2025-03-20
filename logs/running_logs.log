@@ -303,3 +303,182 @@ x==========x]
 
 x==========x]
 [2025-03-20 11:36:50,421: INFO: main: Evaluation metrics: {'avg_real_score': -0.09057275950908661, 'avg_fake_score': -0.271882563829422, 'score_difference': 0.1813098043203354}]
+[2025-03-20 11:54:35,488: INFO: main: >>>>>> stage Web Application Deployment stage started <<<<<<]
+[2025-03-20 11:54:35,491: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-03-20 11:54:35,493: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-20 11:54:35,494: INFO: common: created directory at: artifacts]
+[2025-03-20 11:54:35,496: INFO: web_app: Loading generator model for web app]
+[2025-03-20 11:54:35,841: INFO: web_app: Starting web server on 0.0.0.0:8080]
+[2025-03-20 11:54:35,889: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.16.29.87:8080]
+[2025-03-20 11:54:35,890: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-03-20 11:54:35,891: INFO: _internal:  * Restarting with stat]
+[2025-03-20 11:54:39,888: INFO: main: >>>>>> stage Web Application Deployment stage started <<<<<<]
+[2025-03-20 11:54:39,891: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-03-20 11:54:39,893: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-20 11:54:39,893: INFO: common: created directory at: artifacts]
+[2025-03-20 11:54:39,894: INFO: web_app: Loading generator model for web app]
+[2025-03-20 11:54:40,193: INFO: web_app: Starting web server on 0.0.0.0:8080]
+[2025-03-20 11:54:40,219: WARNING: _internal:  * Debugger is active!]
+[2025-03-20 11:54:40,244: INFO: _internal:  * Debugger PIN: 216-093-100]
+[2025-03-20 11:54:52,253: INFO: _internal: 127.0.0.1 - - [20/Mar/2025 11:54:52] "[35m[1mGET / HTTP/1.1[0m" 500 -]
+[2025-03-20 11:54:52,300: INFO: _internal: 127.0.0.1 - - [20/Mar/2025 11:54:52] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -]
+[2025-03-20 11:54:52,302: INFO: _internal: 127.0.0.1 - - [20/Mar/2025 11:54:52] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -]
+[2025-03-20 11:54:52,319: INFO: _internal: 127.0.0.1 - - [20/Mar/2025 11:54:52] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=pJpf6fRPQJ2lxqsHIWU3 HTTP/1.1" 200 -]
+[2025-03-20 11:54:52,969: INFO: _internal: 127.0.0.1 - - [20/Mar/2025 11:54:52] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -]
+[2025-03-20 11:57:01,399: INFO: _internal:  * Detected change in '/Applications/AI/GAN/web_app.py', reloading]
+[2025-03-20 11:57:01,915: INFO: main: >>>>>> stage Web Application Deployment stage completed <<<<<<
+
+x==========x]
+[2025-03-20 11:57:11,023: INFO: main: >>>>>> stage Web Application Deployment stage started <<<<<<]
+[2025-03-20 11:57:11,027: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-03-20 11:57:11,029: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-20 11:57:11,029: INFO: common: created directory at: artifacts]
+[2025-03-20 11:57:11,030: INFO: web_app: Loading generator model for web app]
+[2025-03-20 11:57:11,402: INFO: web_app: Starting web server on 0.0.0.0:8080]
+[2025-03-20 11:57:11,440: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.16.29.87:8080]
+[2025-03-20 11:57:11,440: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-03-20 11:57:11,441: INFO: _internal:  * Restarting with stat]
+[2025-03-20 11:57:15,296: INFO: main: >>>>>> stage Web Application Deployment stage started <<<<<<]
+[2025-03-20 11:57:15,299: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-03-20 11:57:15,302: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-20 11:57:15,302: INFO: common: created directory at: artifacts]
+[2025-03-20 11:57:15,303: INFO: web_app: Loading generator model for web app]
+[2025-03-20 11:57:15,589: INFO: web_app: Starting web server on 0.0.0.0:8080]
+[2025-03-20 11:57:15,609: WARNING: _internal:  * Debugger is active!]
+[2025-03-20 11:57:15,624: INFO: _internal:  * Debugger PIN: 216-093-100]
+[2025-03-20 11:57:35,708: INFO: _internal:  * Detected change in '/Applications/AI/GAN/web_app.py', reloading]
+[2025-03-20 11:57:36,175: INFO: _internal:  * Restarting with stat]
+[2025-03-20 11:57:36,197: INFO: main: >>>>>> stage Web Application Deployment stage completed <<<<<<
+
+x==========x]
+[2025-03-20 11:57:44,518: INFO: main: >>>>>> stage Web Application Deployment stage started <<<<<<]
+[2025-03-20 11:57:44,521: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-03-20 11:57:44,523: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-20 11:57:44,523: INFO: common: created directory at: artifacts]
+[2025-03-20 11:57:44,525: INFO: web_app: Loading generator model for web app]
+[2025-03-20 11:57:44,846: INFO: web_app: Starting web server on 0.0.0.0:8080]
+[2025-03-20 11:57:44,883: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.16.29.87:8080]
+[2025-03-20 11:57:44,883: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-03-20 11:57:44,884: INFO: _internal:  * Restarting with stat]
+[2025-03-20 11:57:48,857: INFO: main: >>>>>> stage Web Application Deployment stage started <<<<<<]
+[2025-03-20 11:57:48,860: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-03-20 11:57:48,862: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-20 11:57:48,863: INFO: common: created directory at: artifacts]
+[2025-03-20 11:57:48,864: INFO: web_app: Loading generator model for web app]
+[2025-03-20 11:57:49,147: INFO: web_app: Starting web server on 0.0.0.0:8080]
+[2025-03-20 11:57:49,172: WARNING: _internal:  * Debugger is active!]
+[2025-03-20 11:57:49,185: INFO: _internal:  * Debugger PIN: 216-093-100]
+[2025-03-20 11:57:58,334: INFO: _internal: 127.0.0.1 - - [20/Mar/2025 11:57:58] "[35m[1mGET / HTTP/1.1[0m" 500 -]
+[2025-03-20 11:57:58,387: INFO: _internal: 127.0.0.1 - - [20/Mar/2025 11:57:58] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -]
+[2025-03-20 11:57:58,387: INFO: _internal: 127.0.0.1 - - [20/Mar/2025 11:57:58] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -]
+[2025-03-20 11:57:58,401: INFO: _internal: 127.0.0.1 - - [20/Mar/2025 11:57:58] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=3I4VrZbXK7khO46LCbJf HTTP/1.1" 200 -]
+[2025-03-20 11:59:16,365: INFO: _internal:  * Detected change in '/Applications/AI/GAN/web_app.py', reloading]
+[2025-03-20 11:59:16,894: INFO: _internal:  * Restarting with stat]
+[2025-03-20 11:59:23,359: INFO: main: >>>>>> stage Web Application Deployment stage started <<<<<<]
+[2025-03-20 11:59:23,362: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-03-20 11:59:23,364: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-20 11:59:23,364: INFO: common: created directory at: artifacts]
+[2025-03-20 11:59:23,366: INFO: web_app: Loading generator model for web app]
+[2025-03-20 11:59:23,716: INFO: web_app: Starting web server on 0.0.0.0:8080]
+[2025-03-20 11:59:23,747: WARNING: _internal:  * Debugger is active!]
+[2025-03-20 11:59:23,761: INFO: _internal:  * Debugger PIN: 216-093-100]
+[2025-03-20 11:59:25,759: INFO: main: >>>>>> stage Web Application Deployment stage completed <<<<<<
+
+x==========x]
+[2025-03-20 11:59:26,013: INFO: main: >>>>>> stage Web Application Deployment stage completed <<<<<<
+
+x==========x]
+[2025-03-20 11:59:36,228: INFO: main: >>>>>> stage Web Application Deployment stage started <<<<<<]
+[2025-03-20 11:59:36,232: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-03-20 11:59:36,234: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-20 11:59:36,234: INFO: common: created directory at: artifacts]
+[2025-03-20 11:59:36,235: INFO: web_app: Loading generator model for web app]
+[2025-03-20 11:59:36,581: INFO: web_app: Starting web server on 0.0.0.0:8080]
+[2025-03-20 11:59:36,622: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.16.29.87:8080]
+[2025-03-20 11:59:36,622: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-03-20 11:59:36,623: INFO: _internal:  * Restarting with stat]
+[2025-03-20 11:59:40,946: INFO: main: >>>>>> stage Web Application Deployment stage started <<<<<<]
+[2025-03-20 11:59:40,949: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-03-20 11:59:40,952: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-20 11:59:40,952: INFO: common: created directory at: artifacts]
+[2025-03-20 11:59:40,954: INFO: web_app: Loading generator model for web app]
+[2025-03-20 11:59:41,267: INFO: web_app: Starting web server on 0.0.0.0:8080]
+[2025-03-20 11:59:41,286: WARNING: _internal:  * Debugger is active!]
+[2025-03-20 11:59:41,300: INFO: _internal:  * Debugger PIN: 216-093-100]
+[2025-03-20 11:59:41,436: INFO: _internal: 172.16.29.87 - - [20/Mar/2025 11:59:41] "[35m[1mGET / HTTP/1.1[0m" 500 -]
+[2025-03-20 11:59:41,437: INFO: _internal: 127.0.0.1 - - [20/Mar/2025 11:59:41] "[35m[1mGET / HTTP/1.1[0m" 500 -]
+[2025-03-20 11:59:41,471: INFO: _internal: 172.16.29.87 - - [20/Mar/2025 11:59:41] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -]
+[2025-03-20 11:59:41,471: INFO: _internal: 172.16.29.87 - - [20/Mar/2025 11:59:41] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -]
+[2025-03-20 11:59:41,486: INFO: _internal: 127.0.0.1 - - [20/Mar/2025 11:59:41] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -]
+[2025-03-20 11:59:41,489: INFO: _internal: 127.0.0.1 - - [20/Mar/2025 11:59:41] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -]
+[2025-03-20 11:59:41,650: INFO: _internal: 172.16.29.87 - - [20/Mar/2025 11:59:41] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -]
+[2025-03-20 11:59:41,652: INFO: _internal: 127.0.0.1 - - [20/Mar/2025 11:59:41] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=03hQSIeeI3vy7xrWUEmZ HTTP/1.1" 200 -]
+[2025-03-20 12:00:40,701: INFO: main: >>>>>> stage Web Application Deployment stage completed <<<<<<
+
+x==========x]
+[2025-03-20 12:00:40,934: INFO: main: >>>>>> stage Web Application Deployment stage completed <<<<<<
+
+x==========x]
+[2025-03-20 12:01:50,411: INFO: main: >>>>>> stage Web Application Deployment stage started <<<<<<]
+[2025-03-20 12:01:50,414: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-03-20 12:01:50,416: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-20 12:01:50,417: INFO: common: created directory at: artifacts]
+[2025-03-20 12:01:50,417: INFO: web_app: Template folder: /Applications/AI/GAN/templates]
+[2025-03-20 12:01:50,417: INFO: web_app: Static folder: /Applications/AI/GAN/static]
+[2025-03-20 12:01:50,418: ERROR: main: 'GANWebApp' object has no attribute 'setup_routes']
+Traceback (most recent call last):
+  File "/Applications/AI/GAN/main.py", line 13, in <module>
+    web_app.main()
+  File "/Applications/AI/GAN/src/GAN/pipeline/stage_05_web_app.py", line 15, in main
+    web_app = GANWebApp(config=web_app_config)
+  File "/Applications/AI/GAN/src/GAN/components/web_app.py", line 39, in __init__
+    self.setup_routes()
+AttributeError: 'GANWebApp' object has no attribute 'setup_routes'
+[2025-03-20 12:03:00,990: INFO: main: >>>>>> stage Web Application Deployment stage started <<<<<<]
+[2025-03-20 12:03:00,994: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-03-20 12:03:00,996: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-20 12:03:00,996: INFO: common: created directory at: artifacts]
+[2025-03-20 12:03:00,996: INFO: web_app: Template folder: /Applications/AI/GAN/templates]
+[2025-03-20 12:03:00,996: INFO: web_app: Static folder: /Applications/AI/GAN/static]
+[2025-03-20 12:03:00,997: INFO: web_app: Loading generator model for web app]
+[2025-03-20 12:03:01,354: INFO: web_app: Starting web server on 0.0.0.0:8080]
+[2025-03-20 12:03:01,401: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.16.29.87:8080]
+[2025-03-20 12:03:01,401: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-03-20 12:03:01,402: INFO: _internal:  * Restarting with stat]
+[2025-03-20 12:03:05,828: INFO: main: >>>>>> stage Web Application Deployment stage started <<<<<<]
+[2025-03-20 12:03:05,831: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-03-20 12:03:05,833: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-20 12:03:05,834: INFO: common: created directory at: artifacts]
+[2025-03-20 12:03:05,834: INFO: web_app: Template folder: /Applications/AI/GAN/templates]
+[2025-03-20 12:03:05,834: INFO: web_app: Static folder: /Applications/AI/GAN/static]
+[2025-03-20 12:03:05,835: INFO: web_app: Loading generator model for web app]
+[2025-03-20 12:03:06,147: INFO: web_app: Starting web server on 0.0.0.0:8080]
+[2025-03-20 12:03:06,171: WARNING: _internal:  * Debugger is active!]
+[2025-03-20 12:03:06,191: INFO: _internal:  * Debugger PIN: 216-093-100]
+[2025-03-20 12:03:06,247: INFO: _internal: 127.0.0.1 - - [20/Mar/2025 12:03:06] "GET / HTTP/1.1" 200 -]
+[2025-03-20 12:03:06,287: INFO: _internal: 127.0.0.1 - - [20/Mar/2025 12:03:06] "GET /static/js/script.js HTTP/1.1" 200 -]
+[2025-03-20 12:03:06,287: INFO: _internal: 127.0.0.1 - - [20/Mar/2025 12:03:06] "GET /static/css/style.css HTTP/1.1" 200 -]
+[2025-03-20 12:03:06,494: INFO: _internal: 127.0.0.1 - - [20/Mar/2025 12:03:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2025-03-20 12:03:29,711: INFO: _internal: 127.0.0.1 - - [20/Mar/2025 12:03:29] "POST /generate HTTP/1.1" 200 -]
+[2025-03-20 12:03:29,743: INFO: _internal: 127.0.0.1 - - [20/Mar/2025 12:03:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -]
+[2025-03-20 12:03:45,800: INFO: main: >>>>>> stage Web Application Deployment stage completed <<<<<<
+
+x==========x]
+[2025-03-20 12:03:46,058: INFO: main: >>>>>> stage Web Application Deployment stage completed <<<<<<
+
+x==========x]

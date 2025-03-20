@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Monet Style Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Transformation Result</h1>
+
+        <div class="result-container">
+            <div class="image-box">
+                <h3>Original</h3>
+                <img src="data:image/png;base64,{{ original }}" alt="Original Image">
+            </div>
+            <div class="image-box">
+                <h3>Monet Style</h3>
+                <img src="data:image/png;base64,{{ result }}" alt="Monet Style Image">
+                <a href="{{ url_for('static', filename=result_file) }}" download class="download-btn">Download</a>
+            </div>
+        </div>
+
+        <a href="/" class="back-btn">Try Another Image</a>
+    </div>
+</body>
+</html>

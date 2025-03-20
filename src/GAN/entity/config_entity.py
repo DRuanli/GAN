@@ -52,3 +52,9 @@ class GANEvaluationConfig:
     params_batch_size: int
     num_samples: int
     save_format: str
+
+@dataclass(frozen=True)
+class WebAppConfig:
+    generator_model_path: Path
+    port: int
+    host: str

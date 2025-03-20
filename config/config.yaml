@@ -26,6 +26,13 @@ gan_training:
   trained_generator_path: artifacts/gan_training/generator_final.h5
   trained_discriminator_path: artifacts/gan_training/discriminator_final.h5
 
+# For 4th stage
 evaluation:
   output_path: artifacts/evaluation
   mlflow_uri: "file:./mlruns"
+
+# For 5th stage
+web_app:
+  generator_model_path: artifacts/gan_training/generator_final.h5
+  port: 8080
+  host: "0.0.0.0"

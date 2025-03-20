@@ -2,7 +2,7 @@ import os
 from src.GAN.constants import *
 from src.GAN.utils.common import read_yaml, create_directories
 from src.GAN.entity.config_entity import (DataIngestionConfig, PrepareGANModelConfig,
-                                          GANTrainingConfig, GANEvaluationConfig)
+                                          GANTrainingConfig, GANEvaluationConfig, WebAppConfig)
 
 
 class ConfigurationManager:
@@ -88,3 +88,11 @@ class ConfigurationManager:
         )
 
         return gan_evaluation_config
+
+    def get_web_app_config(self) -> WebAppConfig:
+        web_config = self.config.web_app
+        return WebAppConfig(
+            generator_model_path=Path(web_config.generator_model_path),
+            port=web_config.port,
+            host=web_config.host
+        )
