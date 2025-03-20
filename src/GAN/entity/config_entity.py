@@ -22,3 +22,20 @@ class PrepareGANModelConfig:
     params_discriminator_filters: int
     params_use_bias: bool
     params_dropout_rate: float
+
+@dataclass(frozen=True)
+class GANTrainingConfig:
+    root_dir: Path
+    trained_generator_path: Path
+    trained_discriminator_path: Path
+    generator_model_path: Path
+    discriminator_model_path: Path
+    training_data: Path
+    params_epochs: int
+    params_batch_size: int
+    params_image_size: list
+    params_learning_rate: float
+    params_beta1: float
+    params_lambda_cycle: int
+    params_lambda_identity: float
+    params_save_interval: int

@@ -7,7 +7,6 @@
 
 artifacts_root: artifacts
 
-
 # For 1st stage: data ingestion
 data_ingestion:
   root_dir: artifacts/data_ingestion
@@ -15,11 +14,13 @@ data_ingestion:
   local_data_file: artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion
 
+# For 2nd stage: prepare GAN model
 prepare_gan_model:
   root_dir: artifacts/prepare_gan_model
   generator_model_path: artifacts/prepare_gan_model/generator_model.h5
   discriminator_model_path: artifacts/prepare_gan_model/discriminator_model.h5
 
+# For 3rd stage: GAN training
 gan_training:
   root_dir: artifacts/gan_training
   trained_generator_path: artifacts/gan_training/generator_final.h5
