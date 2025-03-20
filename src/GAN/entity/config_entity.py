@@ -39,3 +39,16 @@ class GANTrainingConfig:
     params_lambda_cycle: int
     params_lambda_identity: float
     params_save_interval: int
+
+@dataclass(frozen=True)
+class GANEvaluationConfig:
+    generator_model_path: Path
+    discriminator_model_path: Path
+    test_data_path: Path
+    evaluation_output_path: Path
+    all_params: dict
+    mlflow_uri: str
+    params_image_size: list
+    params_batch_size: int
+    num_samples: int
+    save_format: str

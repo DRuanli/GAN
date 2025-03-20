@@ -2,6 +2,7 @@ from src.GAN import logger
 from src.GAN.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
 from src.GAN.pipeline.stage_02_prepare_gan_model import PrepareGANModelTrainingPipeline
 from src.GAN.pipeline.stage_03_train_gan import GANTrainingPipeline
+from src.GAN.pipeline.stage_04_evaluate_gan import GANEvaluationPipeline
 
 # Stage 1: Data Ingestion
 STAGE_NAME = "Data Ingestion stage"
@@ -32,6 +33,18 @@ try:
     train_gan = GANTrainingPipeline()
     train_gan.main()
     logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+except Exception as e:
+    logger.exception(e)
+    raise e
+
+# Stage 4: Evaluate GAN
+STAGE_NAME = "GAN Evaluation stage"
+try:
+    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+    eval_gan = GANEvaluationPipeline()
+    metrics = eval_gan.main()
+    logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+    logger.info(f"Evaluation metrics: {metrics}")
 except Exception as e:
     logger.exception(e)
     raise e
