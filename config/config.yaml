@@ -19,3 +19,8 @@ prepare_gan_model:
   root_dir: artifacts/prepare_gan_model
   generator_model_path: artifacts/prepare_gan_model/generator_model.h5
   discriminator_model_path: artifacts/prepare_gan_model/discriminator_model.h5
+
+gan_training:
+  root_dir: artifacts/gan_training
+  trained_generator_path: artifacts/gan_training/generator_final.h5
+  trained_discriminator_path: artifacts/gan_training/discriminator_final.h5
