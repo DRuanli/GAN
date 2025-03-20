@@ -142,3 +142,129 @@ x==========x]
 [2025-03-20 10:30:11,920: INFO: train_gan: Epoch 1/1]
 [2025-03-20 10:30:30,485: INFO: 2118690621: Step 40/100 - Gen loss: 0.7484, Disc loss: 0.6659]
 [2025-03-20 10:30:47,198: INFO: train_gan: Step 0/100 - Gen loss: 0.6581, Disc loss: 0.7770]
+[2025-03-20 10:35:09,666: INFO: 2118690621: Step 50/100 - Gen loss: 0.7251, Disc loss: 0.7092]
+[2025-03-20 10:35:29,622: INFO: train_gan: Step 10/100 - Gen loss: 0.8715, Disc loss: 0.6340]
+[2025-03-20 10:38:33,510: INFO: 2118690621: Step 60/100 - Gen loss: 0.7809, Disc loss: 0.6948]
+[2025-03-20 10:38:56,868: INFO: train_gan: Step 20/100 - Gen loss: 0.8314, Disc loss: 0.6849]
+[2025-03-20 10:42:13,028: INFO: 2118690621: Step 70/100 - Gen loss: 0.7402, Disc loss: 0.7028]
+[2025-03-20 10:42:34,414: INFO: train_gan: Step 30/100 - Gen loss: 0.7572, Disc loss: 0.6750]
+[2025-03-20 10:45:36,306: INFO: 2118690621: Step 80/100 - Gen loss: 0.7339, Disc loss: 0.6824]
+[2025-03-20 10:45:56,958: INFO: train_gan: Step 40/100 - Gen loss: 0.7142, Disc loss: 0.7162]
+[2025-03-20 10:49:23,004: INFO: 2118690621: Step 90/100 - Gen loss: 0.6941, Disc loss: 0.6913]
+[2025-03-20 10:49:48,163: INFO: train_gan: Step 50/100 - Gen loss: 0.7158, Disc loss: 0.7006]
+[2025-03-20 10:54:07,747: INFO: 2118690621: Time for epoch 1: 2034.83 sec]
+[2025-03-20 10:54:08,847: INFO: 2118690621: Final models saved at artifacts/gan_training/generator_final.h5 and artifacts/gan_training/discriminator_final.h5]
+[2025-03-20 10:54:08,849: INFO: 2118690621: GAN training completed]
+[2025-03-20 10:54:38,474: INFO: train_gan: Step 60/100 - Gen loss: 0.7073, Disc loss: 0.7090]
+[2025-03-20 11:20:43,971: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-03-20 11:20:43,974: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-20 11:20:43,975: INFO: common: created directory at: artifacts]
+[2025-03-20 11:20:43,976: INFO: common: created directory at: artifacts/evaluation]
+[2025-03-20 11:20:43,977: INFO: 4176678459: Loading GAN models]
+[2025-03-20 11:20:44,560: INFO: 4176678459: Loading test data]
+[2025-03-20 11:20:44,730: INFO: 4176678459: Generating Monet-style samples]
+[2025-03-20 11:20:48,134: INFO: 4176678459: Calculating FID score]
+[2025-03-20 11:21:31,942: INFO: 4176678459: FID Score: 458.2857848227136]
+[2025-03-20 11:21:31,972: INFO: 4176678459: Saving generated images]
+[2025-03-20 11:21:31,979: INFO: common: created directory at: artifacts/evaluation/generated_samples]
+[2025-03-20 11:21:33,718: INFO: common: json file saved at: artifacts/evaluation/metrics.json]
+[2025-03-20 11:21:33,724: ERROR: 4176678459: Error during GAN evaluation: isinstance() arg 2 must be a type or tuple of types]
+Traceback (most recent call last):
+  File "/var/folders/78/nst9ky854lx72gbdr2th76500000gn/T/ipykernel_27631/4176678459.py", line 277, in <module>
+    scores = evaluation.evaluate()
+  File "/var/folders/78/nst9ky854lx72gbdr2th76500000gn/T/ipykernel_27631/4176678459.py", line 231, in evaluate
+    save_json(path=Path(os.path.join(self.config.evaluation_output_path, "metrics.json")), data=scores)
+  File "/Applications/AI/GAN/.venv/lib/python3.9/site-packages/ensure/main.py", line 850, in __call__
+    if not isinstance(return_val, self.return_templ):
+TypeError: isinstance() arg 2 must be a type or tuple of types
+[2025-03-20 11:23:54,388: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-03-20 11:23:54,391: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-20 11:23:54,392: INFO: common: created directory at: artifacts]
+[2025-03-20 11:23:54,393: INFO: common: created directory at: artifacts/evaluation]
+[2025-03-20 11:23:54,394: INFO: 743645840: Loading GAN models]
+[2025-03-20 11:23:54,998: INFO: 743645840: Loading test data]
+[2025-03-20 11:23:55,175: INFO: 743645840: Generating Monet-style samples]
+[2025-03-20 11:23:58,349: INFO: 743645840: Calculating FID score]
+[2025-03-20 11:24:18,979: INFO: 743645840: FID Score: 458.2857848227136]
+[2025-03-20 11:24:18,987: INFO: 743645840: Saving generated images]
+[2025-03-20 11:24:18,990: INFO: common: created directory at: artifacts/evaluation/generated_samples]
+[2025-03-20 11:24:19,646: INFO: common: json file saved at: artifacts/evaluation/metrics.json]
+[2025-03-20 11:24:19,647: ERROR: 743645840: Error during GAN evaluation: isinstance() arg 2 must be a type or tuple of types]
+Traceback (most recent call last):
+  File "/var/folders/78/nst9ky854lx72gbdr2th76500000gn/T/ipykernel_27687/743645840.py", line 291, in <module>
+    scores = evaluation.evaluate()
+  File "/var/folders/78/nst9ky854lx72gbdr2th76500000gn/T/ipykernel_27687/743645840.py", line 240, in evaluate
+    save_json(path=Path(os.path.join(self.config.evaluation_output_path, "metrics.json")), data=scores)
+  File "/Applications/AI/GAN/.venv/lib/python3.9/site-packages/ensure/main.py", line 850, in __call__
+    if not isinstance(return_val, self.return_templ):
+TypeError: isinstance() arg 2 must be a type or tuple of types
+[2025-03-20 11:25:13,112: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-03-20 11:25:13,115: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-20 11:25:13,116: INFO: common: created directory at: artifacts]
+[2025-03-20 11:25:13,117: INFO: common: created directory at: artifacts/evaluation]
+[2025-03-20 11:25:13,117: INFO: 844790829: Loading GAN models]
+[2025-03-20 11:25:13,638: INFO: 844790829: Loading test data]
+[2025-03-20 11:25:13,806: INFO: 844790829: Generating Monet-style samples]
+[2025-03-20 11:25:17,726: INFO: 844790829: Calculating FID score]
+[2025-03-20 11:25:35,845: INFO: 844790829: FID Score: 458.2857848227136]
+[2025-03-20 11:25:35,849: INFO: 844790829: Saving generated images]
+[2025-03-20 11:25:35,852: INFO: common: created directory at: artifacts/evaluation/generated_samples]
+[2025-03-20 11:25:36,528: INFO: 844790829: Metrics saved to artifacts/evaluation/metrics.json]
+[2025-03-20 11:25:36,528: INFO: 844790829: Logging to MLflow]
+[2025-03-20 11:25:36,677: ERROR: 844790829: Error during GAN evaluation: The configured tracking uri scheme: 'file' is invalid for use with the proxy mlflow-artifact scheme. The allowed tracking schemes are: {'https', 'http'}]
+Traceback (most recent call last):
+  File "/var/folders/78/nst9ky854lx72gbdr2th76500000gn/T/ipykernel_27715/844790829.py", line 292, in <module>
+    evaluation.log_into_mlflow()
+  File "/var/folders/78/nst9ky854lx72gbdr2th76500000gn/T/ipykernel_27715/844790829.py", line 267, in log_into_mlflow
+    mlflow.log_artifact(self.comparison_path, "generated_samples")
+  File "/Applications/AI/GAN/.venv/lib/python3.9/site-packages/mlflow/tracking/fluent.py", line 783, in log_artifact
+    MlflowClient().log_artifact(run_id, local_path, artifact_path)
+  File "/Applications/AI/GAN/.venv/lib/python3.9/site-packages/mlflow/tracking/client.py", line 1023, in log_artifact
+    self._tracking_client.log_artifact(run_id, local_path, artifact_path)
+  File "/Applications/AI/GAN/.venv/lib/python3.9/site-packages/mlflow/tracking/_tracking_service/client.py", line 431, in log_artifact
+    artifact_repo = self._get_artifact_repo(run_id)
+  File "/Applications/AI/GAN/.venv/lib/python3.9/site-packages/mlflow/tracking/_tracking_service/client.py", line 416, in _get_artifact_repo
+    artifact_repo = get_artifact_repository(artifact_uri)
+  File "/Applications/AI/GAN/.venv/lib/python3.9/site-packages/mlflow/store/artifact/artifact_repository_registry.py", line 106, in get_artifact_repository
+    return _artifact_repository_registry.get_artifact_repository(artifact_uri)
+  File "/Applications/AI/GAN/.venv/lib/python3.9/site-packages/mlflow/store/artifact/artifact_repository_registry.py", line 72, in get_artifact_repository
+    return repository(artifact_uri)
+  File "/Applications/AI/GAN/.venv/lib/python3.9/site-packages/mlflow/store/artifact/mlflow_artifacts_repo.py", line 45, in __init__
+    super().__init__(self.resolve_uri(artifact_uri, get_tracking_uri()))
+  File "/Applications/AI/GAN/.venv/lib/python3.9/site-packages/mlflow/store/artifact/mlflow_artifacts_repo.py", line 59, in resolve_uri
+    _validate_uri_scheme(track_parse.scheme)
+  File "/Applications/AI/GAN/.venv/lib/python3.9/site-packages/mlflow/store/artifact/mlflow_artifacts_repo.py", line 35, in _validate_uri_scheme
+    raise MlflowException(
+mlflow.exceptions.MlflowException: The configured tracking uri scheme: 'file' is invalid for use with the proxy mlflow-artifact scheme. The allowed tracking schemes are: {'https', 'http'}
+[2025-03-20 11:26:49,310: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-03-20 11:26:49,313: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-20 11:26:49,314: INFO: common: created directory at: artifacts]
+[2025-03-20 11:26:49,314: INFO: common: created directory at: artifacts/evaluation]
+[2025-03-20 11:26:49,315: INFO: 4243899433: Loading GAN models]
+[2025-03-20 11:26:49,875: INFO: 4243899433: Loading test data]
+[2025-03-20 11:26:50,052: INFO: 4243899433: Generating Monet-style samples]
+[2025-03-20 11:26:53,774: INFO: 4243899433: Calculating FID score]
+[2025-03-20 11:27:14,694: INFO: 4243899433: FID Score: 458.2857848227136]
+[2025-03-20 11:27:14,709: INFO: 4243899433: Saving generated images]
+[2025-03-20 11:27:14,723: INFO: common: created directory at: artifacts/evaluation/generated_samples]
+[2025-03-20 11:27:15,632: INFO: 4243899433: Metrics saved to artifacts/evaluation/metrics.json]
+[2025-03-20 11:27:15,632: INFO: 4243899433: Attempting to log to MLflow]
+[2025-03-20 11:27:15,633: WARNING: 4243899433: MLflow tracking URI scheme 'file' not supported for artifact logging]
+[2025-03-20 11:27:15,633: INFO: 4243899433: To use MLflow, configure a valid tracking server with http/https]
+[2025-03-20 11:27:15,634: INFO: 4243899433: Evaluation completed successfully! Metrics: {'fid_score': 458.2857848227136}]
+[2025-03-20 11:28:50,714: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-03-20 11:28:50,717: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-20 11:28:50,718: INFO: common: created directory at: artifacts]
+[2025-03-20 11:28:50,719: INFO: common: created directory at: artifacts/evaluation]
+[2025-03-20 11:28:50,719: INFO: 4243899433: Loading GAN models]
+[2025-03-20 11:28:51,229: INFO: 4243899433: Loading test data]
+[2025-03-20 11:28:51,397: INFO: 4243899433: Generating Monet-style samples]
+[2025-03-20 11:28:54,356: INFO: 4243899433: Calculating FID score]
+[2025-03-20 11:29:23,987: INFO: 4243899433: FID Score: 458.2857848227136]
+[2025-03-20 11:29:23,992: INFO: 4243899433: Saving generated images]
+[2025-03-20 11:29:24,002: INFO: common: created directory at: artifacts/evaluation/generated_samples]
+[2025-03-20 11:29:24,811: INFO: 4243899433: Metrics saved to artifacts/evaluation/metrics.json]
+[2025-03-20 11:29:24,812: INFO: 4243899433: Attempting to log to MLflow]
+[2025-03-20 11:29:24,813: WARNING: 4243899433: MLflow tracking URI scheme 'file' not supported for artifact logging]
+[2025-03-20 11:29:24,814: INFO: 4243899433: To use MLflow, configure a valid tracking server with http/https]
+[2025-03-20 11:29:24,814: INFO: 4243899433: Evaluation completed successfully! Metrics: {'fid_score': 458.2857848227136}]

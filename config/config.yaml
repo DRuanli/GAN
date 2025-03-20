@@ -25,3 +25,7 @@ gan_training:
   root_dir: artifacts/gan_training
   trained_generator_path: artifacts/gan_training/generator_final.h5
   trained_discriminator_path: artifacts/gan_training/discriminator_final.h5
+
+evaluation:
+  output_path: artifacts/evaluation
+  mlflow_uri: "file:./mlruns"

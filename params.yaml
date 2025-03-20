@@ -20,3 +20,6 @@ BETA1: 0.5
 LAMBDA_CYCLE: 10
 LAMBDA_IDENTITY: 0.5
 SAVE_INTERVAL: 5
+
+EVAL_SAMPLES: 32     # Number of samples to evaluate
+SAVE_FORMAT: "png"   # Format for saving generated images
